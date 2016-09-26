@@ -1,0 +1,37 @@
+.navigation-bar-wrapper{
+    color: #fff;
+    font-size: 20px;
+    height:45px;
+    background-color:#00b38a;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+}
+.navigation-bar{
+    height:45px;
+}
+.center-view{
+    flex:1;
+    display: flex;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+}
+.left-view{
+    width:50px;
+    display: flex;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+}
+.right-view{
+    width:50px;
+    display: flex;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+}

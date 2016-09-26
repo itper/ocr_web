@@ -1,6 +1,10 @@
+/*招聘列表*/
 .list .list-item {
     padding: 14px;
     border-bottom: 1px solid #e8e8e8;
+}
+.list{
+    margin-bottom:45px;
 }
 .list .item-logo {
     display: inline-block;
@@ -51,4 +55,221 @@
     height: 0;
     clear: both;
     visibility: hidden;
+}
+.input-container{
+    position: relative;
+}
+.input{
+    width: 90%;
+    border: 0;
+    outline: 0;
+    font: 20px "黑体";
+    color: #333;
+    background: #f6f6f6;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 3% 5%;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.login-page{
+    padding:15px;
+
+}
+.btm-radius{
+    border-bottom-right-radius:5px!important;
+    border-bottom-left-radius: 5px!important;
+}
+.top-radius{
+    border-top-right-radius: 5px!important;
+    border-top-left-radius: 5px!important;
+}
+.login-split{
+    height:30px;
+}
+.btn {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #0ac599;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.btn-border {
+    display: block;
+    font-size: 20px;
+    color: #45e3be;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #45e3be;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 12px;
+}
+.login-page label{
+    color: #45e3be;
+    font-size: 15px;
+    line-height: 1.3;
+    margin:3px;
+}
+.login-page i.eye{
+    font-size: 12px;
+    background-size: 20px 30px;
+    position: absolute;
+    bottom: 33%;
+    right: 5%;
+    color: #00b38a;
+    font-size: 20px;
+}
+.login-page i.eye.fa-eye-slash{
+    color:gray;
+    font-size: 20px;
+}
+.not-login-page .btn{
+    margin:10px 20px;
+}
+.not-login-page .btn-border{
+    margin:10px 20px;
+}
+.not-login-page{
+    display: flex;
+    flex-direction:column-reverse;
+    align-content: center;
+    position: absolute;
+    height:100%;
+    left:0;
+    right:0;
+    justify-content:center;
+
+}
+.user-avatar  .headcon {
+    height: 81px;
+    width: 81px;
+    margin: 0 auto;
+    -webkit-border-radius: 40.5px;
+    -moz-border-radius: 40.5px;
+    border-radius: 40.5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    overflow: hidden;
+    background-color: #f6f6f6
+}
+
+.user-avatar  .headpic {
+
+    width: 72px;
+    height: 72px;
+    margin: 4px 0 0 0px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    border-radius: 36px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box
+}
+.have-login-page{
+    margin-top: 20px;
+}
+.user-avatar{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.user-avatar .name{
+    margin-top:10px;
+    font-size:20px;
+}
+.setting-list .setting-list-item {
+    padding: 2px;
+}
+.setting-list{
+    margin-bottom:45px;
+}
+.setting-list .item-logo {
+    display: inline-block;
+    line-height:50px;
+    margin-left: 10px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    color: #fff;
+    /*color:#007aff;*/
+}
+.setting-list-item .item-logo i{
+    display: inline-block;
+}
+.setting-list .item-logo:before {
+    border-radius:6px;
+    padding: 3px;
+    line-height: 30px;
+    width:30px;
+    display: inline-block;
+    text-align: center;
+}
+.setting-list-item .item-logo{
+}
+.setting-list .item-logo.fa-file:before {
+    background-color: #4cd964;
+}
+.setting-list .item-logo.fa-sign-out:before {
+    background-color: #ff3b30;
+}
+.setting-list .item-logo.fa-sign-in:before {
+    background-color: #ff9500;
+
+}
+.setting-list .item-logo.fa-edit:before {
+    background-color: #8e8e93;
+}
+.setting-list .item-logo.fa-feed:before {
+    background: #007aff;
+}
+.setting-list .item-logo.fa-plus-circle:before{
+    background: #007aff;
+}
+.setting-list .item-desc {
+    height: 50px;
+    color: #333;
+}
+.setting-list .item-title {
+    color: #010101;
+    line-height:50px;
+    font-size: 16px;
+    margin-bottom: 6px;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.setting-list-item .item-state{
+    float: right;
+    height:50px;
+    line-height: 50px;
+    margin-right: 10px;
+    color: #9a9a9e;
+}
+
+
+.setting-list-item .fa-angle-right{
+    float: right;
+    line-height: 50px;
+    margin-right: 10px;
+    font-size: 26px;
+    color: #c5c5ca;
+}
+.setting-list-item .item-line{
+    height:1px;
+    background-color: #d3d3d7;
+    margin-left:60px;
+}
+.setting-list-item .item-line.first-line {
+    margin-left:0;
+}
+.setting-list-item .item-line.last-line {
+    margin-left:0;
 }

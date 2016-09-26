@@ -40,7 +40,7 @@ class BarItem extends Component {
                     return 'bar-item';
                 }
             })()}>
-                <Link to={`/${value}`}>
+                <Link to={{pathname:`/home/${value}`,query:{}}} >
                     <div className='wrapper'>
                         <span className={'icon icon-'+value}/>
                         <span className='text'>{text}</span>

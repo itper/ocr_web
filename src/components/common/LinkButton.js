@@ -1,11 +1,11 @@
 /**
- * Created by chendi on 16/9/22.
+ * Created by chendi on 16/9/23.
  */
 
 import React, {Component, PropTypes} from 'react';
-import BarItem from './BarItem';
-import style from '../static/css/bottom.css';
-class BottomBar extends Component {
+import {Link} from 'react-router';
+import classnames from 'classnames';
+class LinkButton extends Component {
     constructor(props) {
         super(props);
         //this.state = {};
@@ -31,18 +31,17 @@ class BottomBar extends Component {
      **/
 
     render() {
-        const {items,selected} = this.props;
+        const {href,onlyBorder} = this.props;
         return (
-            <div className='bottom-bar'>
-                {
-                    items.map(item=>(<BarItem item={item} checked={item.value===selected}/>))
-                }
+            <div>
+                <Link to={href}>
+                    <span href={href} className={onlyBorder?"btn-border":'btn'}>{this.props.text}</span>
+                </Link>
             </div>
         )
     }
 }
 
-BottomBar.propTypes = {};
-BottomBar.defaultProps = {
-};
-export default BottomBar;
+LinkButton.propTypes = {};
+LinkButton.defaultProps = {};
+export default LinkButton;

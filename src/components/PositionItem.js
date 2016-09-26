@@ -29,10 +29,18 @@ class PositionItem extends Component {
      **/
 
     render() {
-
+        const {item} = this.props;
         return (
-            <div>
-
+            <div className="list-item">
+                <img className="item-logo" src="http://www.lgstatic.com/image1/M00/00/33/CgYXBlTUXI-AC08_AACIkHlny3Y866.jpg"/>
+                <div className="item-desc">
+                    <h2 className="item-title">公司</h2>
+                    <p className="item-info">
+                        <span className="item-pos">技术支持/产品升级 [ 上海 ]</span>
+                        <span className="item-salary">4k-6k</span>
+                    </p>
+                    <p className="item-time">今天 18:20</p>
+                </div>
             </div>
         )
     }

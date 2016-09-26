@@ -49,4 +49,5 @@
     background-color:#f6f6f6;
     right:0;
     height:45px;
+    z-index:10000;
 }

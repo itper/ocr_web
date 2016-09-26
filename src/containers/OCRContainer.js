@@ -4,7 +4,9 @@ import OCRItem from '../components/OCRItem';
 class OCRContainer extends Component{
 
     render(){
-        const items = [{},{},{},{},{},{},{},{},{},{}];
+        const items = [{},{},{},{},{},{},{},{},{},{} ];
+
+        console.log(this.props);
         return(
             <div className='list'>
                 {items.map((item)=>{
