@@ -31,17 +31,20 @@ class LinkButton extends Component {
      **/
 
     render() {
-        const {href,onlyBorder} = this.props;
+        console.log('123',this.context.fruit);
+        const {href,onlyBorder,onClick,type} = this.props;
         return (
-            <div>
+            <div onClick={onClick?onClick.bind(this):null}>
                 <Link to={href}>
-                    <span href={href} className={onlyBorder?"btn-border":'btn'}>{this.props.text}</span>
+                    <button type={type} href={href} className={onlyBorder?"btn-border":'btn'}>{this.props.text}</button>
                 </Link>
             </div>
         )
     }
 }
-
+LinkButton.contextTypes = {
+    fruit:PropTypes.string.isRequired
+}
 LinkButton.propTypes = {};
 LinkButton.defaultProps = {};
 export default LinkButton;

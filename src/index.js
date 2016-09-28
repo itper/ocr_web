@@ -7,7 +7,9 @@ import configureStore from './store';
 import BrowserHistory from 'react-router/lib/browserHistory';
 
 
-const store = configureStore();
+const store = configureStore({
+    a:2
+});
 render(
     <Provider store={store}>
         <Router routes={routes} history={BrowserHistory}/>

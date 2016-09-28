@@ -31,9 +31,9 @@ class SettingItem extends Component {
      **/
 
     render() {
-        const {logo,type,state,text,isLastLine,isFirstLine,logoType} = this.props;
+        const {logo,type,state,text,isLastLine,isFirstLine,logoType,onClick} = this.props;
         return (
-            <div  className="setting-list-item">
+            <div onClick={onClick}  className="setting-list-item">
                 <div className={classnames('',{'item-line first-line':isFirstLine})}></div>
                 {logoType==='img'?(<img className="item-logo" src=""/>):(<i className={'item-logo fa fa-'+logo+' '+type}/>)}
                 <div className="item-desc">

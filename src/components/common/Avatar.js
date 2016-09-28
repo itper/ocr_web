@@ -32,13 +32,13 @@ class Avatar extends Component {
      **/
 
     render() {
-
+        const {avatar,username} = this.props.user;
         return (
             <div className='user-avatar'>
                 <div className="headcon">
-                    <img className="headpic" src={require("../../static/images/default_headpic.png")}/>
+                    <img className="headpic" src={avatar}/>
                 </div>
-                <div className='name'>{'chendi'}</div>
+                <div className='name'>{username}</div>
             </div>
         )
     }

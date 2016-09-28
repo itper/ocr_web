@@ -41,7 +41,6 @@ class HomePage extends Component {
      **/
 
     render() {
-        console.log(this.props);
         const {children,items} = this.props;
         const page = this.props.location.pathname.split('/')[2];
         return (
