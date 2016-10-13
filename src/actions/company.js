@@ -7,7 +7,7 @@ export const START_GET_COMPANY_LIST = 'START_GET_COMPANY_LIST';
 export const GET_COMPANY_LIST_SUCCESS = 'GET_COMPANY_LIST_SUCCESS';
 export const GET_COMPANY_LIST_FAILURE = 'GET_COMPANY_LIST_FAILURE';
 export const UPDATE_COMPANY_SUCCESS = 'UPDATE_COMPANY_SUCCESS';
-const url = 'http://ocr.cn/company';
+const url = 'http://ocr.itper.xyz/company';
 export function list(page,pageSize=10){
     return async dispatch=>{
         try{

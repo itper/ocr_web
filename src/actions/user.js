@@ -14,7 +14,7 @@ export const CREATE_SIGNIN_SUCCESS= 'CREATE_SIGNIN_SUCCESS';
 export const CREATE_SIGNIN_FAILURE = 'CREATE_SIGNIN_FAILURE';
 export const START_CREATE_SIGNIN_SUCCESS='STAT_CREATE_SIGNIN_SUCCESS';
 export const CREATE_CODE_STATE_RESET = 'CREATE_CODE_STATE_RESET';
-const url = 'http://ocr.cn/user';
+const url = 'http://ocr.itper.xyz/user';
 export function login(phone,pwd){
     return async dispatch=>{
         try{

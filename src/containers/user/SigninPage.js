@@ -40,6 +40,7 @@ class SigninPage extends Component {
      **/
 
     render() {
+        console.log(this.props.test);
         var text = '签到';
         if(this.props.loadingState===LoadingState.OVER){
             text = '签到成功';

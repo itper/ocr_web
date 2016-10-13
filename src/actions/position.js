@@ -7,7 +7,7 @@ export const START_GET_POSITION_LIST = 'START_GET_POSITION_LIST';
 export const GET_POSITION_LIST_SUCCESS = 'GET_POSITION_LIST_SUCCESS';
 export const GET_POSITION_LIST_FAILURE = 'GET_POSITION_LIST_FAILURE';
 export const UPDATE_POSITION_SUCCESS = 'UPDATE_POSITION_SUCCESS';
-const url = 'http://ocr.cn/position';
+const url = 'http://ocr.itper.xyz/position';
 export function list(page,pageSize=10){
     return async dispatch=>{
         try{

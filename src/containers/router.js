@@ -31,7 +31,7 @@ export default(
                 </Route>
             </Route>
             <Route path="user" >
-                <Route path='signin' component={SigninPage}/>
+                <Route path='signin' component={()=>{return (<SigninPage test="helloxxx"/>)}}/>
                 <Route path='signincode' component={SigninCodePage}/>
             </Route>
             <Route path='/position/detail' component={PositionDetail}/>
