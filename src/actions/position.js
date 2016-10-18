@@ -15,7 +15,7 @@ export function list(page,pageSize=10){
             await new Promise(function(resolve,reject){
                 setTimeout(function(){resolve()},0);
             });
-            const data = await axios.get(`${url}/list`,{
+            const data = await axios.get(`${url}`,{
                 params: {
                     page: page,
                     pageSize:pageSize

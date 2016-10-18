@@ -44,6 +44,9 @@ export default(
                 <Route path="login" component={LoginPage}/>
                 <Route path="register" component={RegisterPage}/>
             </Route>
+            <Route path='/company'>
+                <Route path="add" component={AddCompany}/>
+            </Route>
        </Route>
     </Route>
 )

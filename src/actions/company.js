@@ -13,9 +13,9 @@ export function list(page,pageSize=10){
         try{
             dispatch({type:START_GET_COMPANY_LIST});
             await new Promise(function(resolve,reject){
-                setTimeout(function(){resolve()},3000);
-            })
-            const data = await axios.get(`${url}/list`,{
+                setTimeout(function(){resolve()},3);
+            });
+            const data = await axios.get(`${url}`,{
                 params: {
                     page: page,
                     pageSize:pageSize
