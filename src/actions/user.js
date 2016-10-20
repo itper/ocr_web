@@ -19,7 +19,7 @@ export function login(phone,pwd){
     return async dispatch=>{
         try{
             const data = await axios.post(`${url}/login`,{
-                username:phone,pwd
+                number:phone,pwd
             },{
                 withCredentials:true
             });

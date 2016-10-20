@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fa0dc44e-113e-473b-bdce-2ef061b217c2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/user/SigninPage.js" afterPath="$PROJECT_DIR$/src/containers/user/SigninPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/user.js" afterPath="$PROJECT_DIR$/src/actions/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/LoginPage.js" afterPath="$PROJECT_DIR$/src/containers/LoginPage.js" />
     </list>
     <ignored path="ocr_web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="company.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/company.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="position.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/position.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SigninPage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SigninPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/user/SigninPage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -64,6 +55,16 @@
               <folding>
                 <element signature="e#42#81#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginPage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/LoginPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="42" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
               <folding>
                 <element signature="e#42#81#0" expanded="true" />
               </folding>
@@ -176,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/containers/NotloginPage.js" />
         <option value="$PROJECT_DIR$/src/containers/RegisterPage.js" />
         <option value="$PROJECT_DIR$/src/components/common/Avatar.js" />
-        <option value="$PROJECT_DIR$/src/containers/LoginPage.js" />
         <option value="$PROJECT_DIR$/src/components/SettingItem.js" />
         <option value="$PROJECT_DIR$/src/containers/UserContainer.js" />
         <option value="$PROJECT_DIR$/src/containers/OCRContainer.js" />
@@ -196,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/containers/HaveLoginPage.js" />
         <option value="$PROJECT_DIR$/src/static/css/index.css" />
         <option value="$PROJECT_DIR$/src/containers/user/SigninCodePage.js" />
-        <option value="$PROJECT_DIR$/src/actions/user.js" />
         <option value="$PROJECT_DIR$/src/containers/position/PositionList.js" />
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -208,6 +207,8 @@
         <option value="$PROJECT_DIR$/src/actions/company.js" />
         <option value="$PROJECT_DIR$/src/actions/position.js" />
         <option value="$PROJECT_DIR$/src/containers/user/SigninPage.js" />
+        <option value="$PROJECT_DIR$/src/actions/user.js" />
+        <option value="$PROJECT_DIR$/src/containers/LoginPage.js" />
       </list>
     </option>
   </component>
@@ -333,11 +334,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="containers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
+              <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,12 +454,12 @@
       <workItem from="1475981443404" duration="2466000" />
       <workItem from="1476080262173" duration="44000" />
       <workItem from="1476326162952" duration="8593000" />
-      <workItem from="1476843848627" duration="1973000" />
+      <workItem from="1476843848627" duration="2329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121804000" />
+    <option name="totallyTimeSpent" value="122160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/position/PositionList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -640,6 +630,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -845,26 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/LoginPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="42" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="e#42#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/company/AddCompany.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -906,6 +877,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/LoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
           <folding>
             <element signature="e#42#81#0" expanded="true" />
           </folding>

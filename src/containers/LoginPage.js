@@ -54,7 +54,7 @@ class LoginPage extends Component {
                 />
                 <div className='login-page'>
                     <form onSubmit = {this.handleSubmit.bind(this)}>
-                        <Input placeholder='手机号' topRadius={true} {...connectValue('phone',this)}/>
+                        <Input placeholder='学号/工号' topRadius={true} {...connectValue('phone',this)}/>
                         <Input placeholder='密码' btmRadius={true} isPassword={true} {...connectValue('pwd',this)}/>
                         <div className="login-split"></div>
                         <LinkButton text="登录"/>
