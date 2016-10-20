@@ -66,7 +66,8 @@ class SigninPage extends Component {
                     <div className="split"></div>
                     <LinkButton text="扫描" onClick={
                         ()=>{
-                            window.scannerCallback = function(code){
+                            window.scannerCallback = (code)=>{
+                                this.props.signinAction(code);
                                 alert(code);
                             };
                             location.href='itper://scanner';
