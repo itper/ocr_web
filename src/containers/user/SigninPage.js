@@ -64,7 +64,15 @@ class SigninPage extends Component {
                     <Input topRadius={true} btmRadius={true} {...connectValue('code',this)}/>
                     <div className="split"></div>
                     <div className="split"></div>
-
+                    <LinkButton text="扫描" onClick={
+                        ()=>{
+                            window.scannerCallback = function(code){
+                                alert(code);
+                            };
+                            location.href='itper://scanner';
+                        }
+                    }/>
+                    <div className="split"></div>
                     <LinkButton text={text} onClick={
                         ()=>{
                             this.props.signinAction(this.state.code);
