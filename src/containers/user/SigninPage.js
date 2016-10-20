@@ -68,7 +68,6 @@ class SigninPage extends Component {
                         ()=>{
                             window.scannerCallback = (code)=>{
                                 this.props.signinAction(code);
-                                alert(code);
                             };
                             location.href='itper://scanner';
                         }
